@@ -1,0 +1,30 @@
+# Secrets — never commit
+.env
+.env.*
+*.p8
+*.pem
+*.key
+profiles.yml
+connections.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# dbt
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Airflow / Astro
+.astro/
+airflow_settings.yaml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
